@@ -79,6 +79,14 @@ console.log("Los apellidos completos son " , sumaApellidos);
 let nombre = prompt("Ingrese nombre");
 console.log("Su nombre es" , nombre);
 
+//Operaciones basicas
+let year= 2020;
+let nextDecade= year + 10
+console.log("La proxima decada sera", nextDecade);
+
+
+
+
 
 
 
