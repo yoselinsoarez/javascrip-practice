@@ -1,4 +1,4 @@
-console.log("Ejercicio de variables")
+console.log("Ejercicios")
 
 
 
@@ -75,14 +75,28 @@ let sumaApellidos= tercerApellido + " " + cuartoApellido;
 console.log("Los apellidos completos son " , sumaApellidos);
 
 
-//Perifericos
-let nombre = prompt("Ingrese nombre");
-console.log("Su nombre es" , nombre);
-
 //Operaciones basicas
 let year= 2020;
 let nextDecade= year + 10
 console.log("La proxima decada sera", nextDecade);
+
+
+/*Ejercicio
+Declara una variable que vamos a llamar: numeroEntero
+En la siguiente instrucción (nueva línea en el script) asígnale el valor numérico: 1625
+Luego, en la siguiente instrucción (nueva línea) se deberá mostrar el valor de dicha variable en el cuadro de resultados del editor con el siguiente texto: “El valor de numeroEntero es …..”  (en los puntos suspensivos debe aparecer el valor 1625)
+Una vez visto el resultado del script, si ha sido correcto, incluye una línea, debajo de aquella en que asignaste el valor 1625, y en esta instrucción asigna el valor 375 a la variable numeroEntero. Comprueba que al ejecutar de nuevo el script muestra efectivamente ese nuevo valor
+Por último, añade esta instrucción como última línea del código:
+alert(numeroEntero + 125); y comprueba que al ejecutar el script te aparece un pop-up con el valor: 500*/
+
+
+
+let numeroEntero
+numeroEntero = 1625
+console.log("El valor de numero entero es " + numeroEntero);
+numeroEntero = 375 
+alert(numeroEntero + 125)
+
 
 
 
