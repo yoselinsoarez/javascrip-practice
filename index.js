@@ -62,4 +62,30 @@ console.log("El total de personas que fue a ver a Marilina Bertoldi fue de " , s
 console.log("La cantidad en Uruguay" , uruguay , "en Argentina" , argentina , "en Chile" , chile , "en Paraguay" , paraguay);
 
 
+//Otra manera declara variables con espacios en blanco
+let primerApellido= "Soarez";
+let segundoApellido= "Fernandez";
+let BLANCO = " ";
+let apellidosSuma= primerApellido + BLANCO + segundoApellido;
+console.log("Los apellidos completos son " , apellidosSuma);
+
+let tercerApellido= "Sosa";
+let cuartoApellido= "Vidal";
+let sumaApellidos= tercerApellido + " " + cuartoApellido;
+console.log("Los apellidos completos son " , sumaApellidos);
+
+
+//Perifericos
+let nombre = prompt("Ingrese nombre");
+console.log("Su nombre es" , nombre);
+
+
+
+
+
+
+
+
+
+
 
