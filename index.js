@@ -1,6 +1,6 @@
 console.log("Ejercicios")
 
-
+//Ejercicios variables
 
 /*Ejercicio 1 -
 Declarar una variable llamada firstName;
