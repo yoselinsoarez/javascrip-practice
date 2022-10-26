@@ -97,6 +97,48 @@ console.log("El valor de numero entero es " + numeroEntero);
 numeroEntero = 375 
 alert(numeroEntero + 125)
 
+//Ejercicios IF 
+/*Ejercicio 1:
+
+Quiero hacer un programa que me diga si una persona es mayor de edad.
+Tomaremos como mayoría de edad los 18 años. 
+Necesito que dada la edad ingresada por el usuario, si la persona tiene 18 años o más, se muestre un mensaje en consola diciendo “Es mayor”, de lo contrario, mostrar un mensaje que diga “Es menor”.
+
+Escribir el código necesario para resolver este problema.*/
+
+let edad = window.prompt("Cual es tu edad?");
+let edadNumerica = parseInt(edad);
+
+if (edadNumerica >= 18){
+    alert("Es mayor");
+} else {
+    alert("Es menor");
+}
+
+//Ejercicio 2
+/*Escribe un programa que responda a un usuario que quiere comprar un helado en una conocida marca de comida rápida
+ cuanto le costará en función del topping que elija.
+
+El helado sin topping cuesta 1.90€.
+El topping de oreo cuesta 1€.
+El topping de KitKat cuesta 1.50€.
+
+En caso de no disponer del topping solicitado por el usuario el programa escribirá por pantalla «no tenemos este topping, lo sentimos. »
+ y a continuación informar del precio del helado sin ningún topping.
+Finalmente, el programa escribe por pantalla el precio del helado con el topping seleccionado (o ninguno). */
+
+if(topping == "oreo"){
+    precioTotal = precioHelado + precioOreo;
+} else if(topping == "kitkat"){
+    precioTotal = precioHelado + precioKitKat;
+} else {
+    precioTotal = precioHelado;
+    alert("no tenemos ese topping, lo siento");
+}
+
+alert("Debes pagar " + precioTotal); 
+
+
 
 
 
