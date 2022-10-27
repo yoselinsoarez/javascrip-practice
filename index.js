@@ -87,7 +87,7 @@ En la siguiente instrucción (nueva línea en el script) asígnale el valor num�
 Luego, en la siguiente instrucción (nueva línea) se deberá mostrar el valor de dicha variable en el cuadro de resultados del editor con el siguiente texto: “El valor de numeroEntero es …..”  (en los puntos suspensivos debe aparecer el valor 1625)
 Una vez visto el resultado del script, si ha sido correcto, incluye una línea, debajo de aquella en que asignaste el valor 1625, y en esta instrucción asigna el valor 375 a la variable numeroEntero. Comprueba que al ejecutar de nuevo el script muestra efectivamente ese nuevo valor
 Por último, añade esta instrucción como última línea del código:
-alert(numeroEntero + 125); y comprueba que al ejecutar el script te aparece un pop-up con el valor: 500*/
+alert(numeroEntero + 125); y comprueba que al ejecutar el script te aparece un pop-up con el valor: 500 */
 
 
 
@@ -95,10 +95,10 @@ let numeroEntero
 numeroEntero = 1625
 console.log("El valor de numero entero es " + numeroEntero);
 numeroEntero = 375 
-alert(numeroEntero + 125)
+alert(numeroEntero + 125) 
 
-//Ejercicios IF 
-/*Ejercicio 1:
+/*Ejercicios IF 
+Ejercicio 1:
 
 Quiero hacer un programa que me diga si una persona es mayor de edad.
 Tomaremos como mayoría de edad los 18 años. 
@@ -106,14 +106,14 @@ Necesito que dada la edad ingresada por el usuario, si la persona tiene 18 años
 
 Escribir el código necesario para resolver este problema.*/
 
-let edad = window.prompt("Cual es tu edad?");
+/*let edad = window.prompt("Cual es tu edad?");
 let edadNumerica = parseInt(edad);
 
 if (edadNumerica >= 18){
     alert("Es mayor");
 } else {
     alert("Es menor");
-}
+} 
 
 
 /* Ejercicio 2: Escribe un programa que responda a un usuario que quiere comprar un helado en una conocida marca de comida rápida
@@ -125,7 +125,7 @@ El topping de KitKat cuesta 1.50€.
 
 En caso de no disponer del topping solicitado por el usuario el programa escribirá por pantalla «no tenemos este topping, lo sentimos. »
  y a continuación informar del precio del helado sin ningún topping.
-Finalmente, el programa escribe por pantalla el precio del helado con el topping seleccionado (o ninguno). 
+Finalmente, el programa escribe por pantalla el precio del helado con el topping seleccionado (o ninguno). */
 
 let topping = window.prompt("Que topping quieres?");
 let precioHelado = 1.90;
@@ -142,7 +142,7 @@ if(topping == "oreo"){
     alert("no tenemos ese topping, lo siento");
 }
 
-alert("Debes pagar " + precioTotal); */
+alert("Debes pagar " + precioTotal); 
 
 
 /*Ejercicio 3:
@@ -164,8 +164,36 @@ if(culpable =="Si"){
 }else if(culpable=="no"){
     alert("Iras a casa");
 }else {
-    alert("La documentacion, porfavor")
+    alert("La documentacion, porfavor") 
+} 
+
+
+/*Ejercicio 4
+Quiero hacer un programa que dada una edad ingresada por el usuario me permita saber si los clientes que compran entradas
+ son beneficiarios de algún descuento. 
+En este caso los niños menores de 5 años no pagan entrada, los niños de hasta 12 años pagan $50,
+ adolescentes menores de 18 años pagan $100 y adultos $200.
+
+Escribir el código necesario para resolver el problema y mostrar en consola cuánto debe pagar cada persona*/
+
+let edad=window.prompt("Cual es tu edad?");
+let edadNumerica= parseInt(edad);
+if(edad < 5) {
+    alert("El valor de la entrada es de 0");
+} else if(edad >5 && edad<= 12){
+    alert("El valor de la entrada es de 50");
+} else if(edad >12 && edad< 18){
+    alert("El valor de la entrada es de 100");
+} else {
+    alert("El valor de la entrada es de 200");
 }
+
+
+
+
+
+
+
 
 
 
