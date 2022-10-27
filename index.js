@@ -127,6 +127,12 @@ En caso de no disponer del topping solicitado por el usuario el programa escribi
  y a continuación informar del precio del helado sin ningún topping.
 Finalmente, el programa escribe por pantalla el precio del helado con el topping seleccionado (o ninguno). 
 
+let topping = window.prompt("Que topping quieres?");
+let precioHelado = 1.90;
+let precioOreo = 1;
+let precioKitKat = 1.5;
+let precioTotal = 0;
+
 if(topping == "oreo"){
     precioTotal = precioHelado + precioOreo;
 } else if(topping == "kitkat"){
