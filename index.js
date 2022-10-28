@@ -188,6 +188,39 @@ if(edad < 5) {
     alert("El valor de la entrada es de 200");
 }
 
+/*Ejercicio 5
+Pedir un número y decir si es un número negativo, si es positivo o cero*/
+
+let numero= window.prompt("Ingrese un numero");
+let numeros= -1;
+
+if(numero == 0){
+    alert("Es cero");
+    } else if(numero>0){
+        alert("Es positivo");
+    }else {
+        alert("Es negativo");
+    } 
+
+    /*Ejercicio 6
+    Pedir una calificación  de 0 a 10 
+    y mostrar de la siguiente manera: Insuficiente, Suficiente, Bien, Excelente. 
+    (De 0 a 3, de 4 a 6, de 7 a 9 y de 10 a 12. Cualquier otra calificación no es válida.)*/
+
+    let calificacion= window.prompt("Ingrese una calificacion");
+
+    if(calificacion <=0 && calificacion <=3){
+        alert("Calificacion insuficiente");
+    }else if(calificacion >=4 && calificacion <=6){
+        alert("Calificacion suficiente");
+    } else if(calificacion>=7 && calificacion<=9){
+        alert("Calificacion bien");
+    } else if(calificacion>=10 && calificacion <=12){
+        alert("Calificacion excelente");
+    } else {
+        alert("Cualquier otra calificacion no es valida");
+    }
+
 
 
 
