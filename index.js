@@ -209,7 +209,7 @@ if(numero == 0){
 
     let calificacion= window.prompt("Ingrese una calificacion");
 
-    if(calificacion <=0 && calificacion <=3){
+    if(calificacion >=0 && calificacion <=3){
         alert("Calificacion insuficiente");
     }else if(calificacion >=4 && calificacion <=6){
         alert("Calificacion suficiente");
@@ -223,9 +223,29 @@ if(numero == 0){
 
 
 
+    
+
+    /*For loops
+    Ejercicio 1: Realizar un contador que vaya de 0 a 10*/
+
+    for( let i=0 ; i<=10 ; i++ ){
+        console.log(i);
+    }
+
+    /*Ejercicio 2: Realizar un contador que vaya de 100 a -10 con while*/
+
+    let i= 100;
+    while( i>= -10 ){
+        console.log(i)
+        i--
+    }
 
 
+    /*Ejercicio 3: Realizar un contador que vaya de 3 en tres hasta llegar al numero 30*/
+    for( let i=0; i<=30; i += 3 ){
+        console.log(i);
 
+    }
 
 
 
